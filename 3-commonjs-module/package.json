@@ -1,0 +1,21 @@
+{
+  "name": "commonjs-module",
+  "description": "This module shows how one might approach writing an NPM module in ES6 while providing a standard ES5 API.",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "babel src -d lib",
+    "watch": "babel src -d lib -w --source-maps inline",
+    "prepublish": "npm run build",
+    "test": "mocha --compilers js:babel/register-without-polyfill --recursive test"
+  },
+  "devDependencies": {
+    "babel": "^5.8.23",
+    "chai": "^3.3.0",
+    "mocha": "^2.3.3"
+  },
+  "dependencies": {
+    "babel-runtime": "^5.8.25"
+  }
+}

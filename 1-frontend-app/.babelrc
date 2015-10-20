@@ -1,0 +1,13 @@
+{
+    // Enable all syntax transformations that have been officially accepted as part of JS.
+    // Information on stages is available at http://babeljs.io/docs/usage/experimental/.
+    "stage": 4,
+
+    // Allows you to add extra transformations that you want.
+    // Transforms are listed on http://babeljs.io/docs/advanced/transformers/.
+    // "optional": [],
+
+    // Alternate approaches to above. You can explicitly whitelist or blacklist transformations
+    // "whitelist": [],
+    // "blacklist": []
+}

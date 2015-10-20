@@ -1,0 +1,26 @@
+{
+  "name": "node-app",
+  "description": "A simple node application that demonstrates Babel directly on Node",
+  "version": "1.0.0",
+  "private": true,
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "babel src -d lib",
+    "watch": "babel src -d lib --source-maps inline -w",
+    "test": "mocha --compilers js:babel/register --recursive test",
+    "run": "node lib/index.js"
+  },
+  "keywords": [
+    "babel",
+    "demo",
+    "howto",
+    "example"
+  ],
+  "author": "Logan Smyth <loganfsmyth@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel": "^5.x",
+    "chai": "^3.x",
+    "mocha": "^2.x"
+  }
+}
