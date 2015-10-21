@@ -5,7 +5,7 @@ This repo contains three example node modules that accompany my talk for HTMLDev
 # Modules
 
 1. [A single-page client-side example](1-frontend-app)
-2. [A node script example](1-node-app)
+2. [A node script example](2-node-app)
 3. [An NPM module example](3-commonjs-module)
 
 # Slides
